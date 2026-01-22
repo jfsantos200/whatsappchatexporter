@@ -58,7 +58,11 @@ pip install -e .
 whatsappchatexporter exportar --source /ruta/origen --destination /ruta/salida
 ```
 
-El comando generará un resumen inicial de exportación en la carpeta de destino.
+El comando copiará los `.txt` desde la ruta de origen y generará un resumen de exportación en la carpeta de destino.
+
+### Formatos soportados
+
+- `.txt` (por ahora). La ruta de origen puede ser un archivo o una carpeta con varios `.txt`.
 
 ## Preguntas frecuentes
 
