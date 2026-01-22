@@ -51,6 +51,15 @@ Para un desarrollo estable, seguro y multiplataforma, proponemos el siguiente st
 
 Este stack permite cubrir PC y Android, mantener la lógica en un core reutilizable y ofrecer experiencia de usuario sencilla.
 
+## Inicio rápido (CLI)
+
+```bash
+pip install -e .
+whatsappchatexporter exportar --source /ruta/origen --destination /ruta/salida
+```
+
+El comando generará un resumen inicial de exportación en la carpeta de destino.
+
 ## Preguntas frecuentes
 
 **¿Necesito iniciar sesión en mi cuenta de Google?**
