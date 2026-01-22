@@ -64,6 +64,32 @@ El comando copiará los `.txt` desde la ruta de origen y generará un resumen de
 
 - `.txt` (por ahora). La ruta de origen puede ser un archivo o una carpeta con varios `.txt`.
 
+## Cómo probar la exportación a `.txt`
+
+1. Crea una carpeta de origen con archivos `.txt` de ejemplo:
+
+```bash
+mkdir -p /tmp/wa-origen
+printf "Chat de prueba\n" > /tmp/wa-origen/chat1.txt
+printf "Otro chat\n" > /tmp/wa-origen/chat2.txt
+```
+
+2. Ejecuta la exportación hacia una carpeta de destino:
+
+```bash
+mkdir -p /tmp/wa-salida
+whatsappchatexporter exportar --source /tmp/wa-origen --destination /tmp/wa-salida
+```
+
+3. Verifica los resultados:
+
+```bash
+ls -la /tmp/wa-salida
+cat /tmp/wa-salida/export-summary.txt
+```
+
+Deberías ver los `.txt` copiados y un archivo `export-summary.txt` con el resumen de la exportación.
+
 ## Preguntas frecuentes
 
 **¿Necesito iniciar sesión en mi cuenta de Google?**
