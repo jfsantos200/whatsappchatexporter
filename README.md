@@ -13,6 +13,16 @@ Restaura los chats de WhatsApp desde Google Drive a `.txt` de forma masiva y sin
 ### 🆓 Copia de seguridad gratuita
 Realiza respaldos de los chats de WhatsApp (Business) en tu computadora. **Gratis**: solo conecta tu smartphone por USB para hacerlo.
 
+## Objetivo del proyecto
+
+Este proyecto busca **exportar chats directamente desde WhatsApp Business**, sin pasos manuales ni exportaciones previas. La meta es permitir la extracción de chats desde el dispositivo o desde copias de seguridad legítimas (por ejemplo, Google Drive), con un flujo claro y automatizado.
+
+## Estado actual
+
+- La herramienta **aún no se conecta directamente a WhatsApp Business**.
+- Actualmente **solo copia archivos `.txt` locales** a una carpeta de destino y genera un resumen.
+- La conexión directa con WhatsApp Business está planificada como siguiente fase del desarrollo.
+
 ## Cómo funciona
 
 1. Conecta tu smartphone por USB a tu computadora.
